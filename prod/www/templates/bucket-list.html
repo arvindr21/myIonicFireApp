@@ -1,0 +1,26 @@
+<ion-header-bar class="bar-positive">
+   <button class="button button-clear" ng-click="newTask()">New</button>
+   <h1 class="title">My Bucket List</h1>
+   <button class="button button-clear" ng-click="logout()">Logout</button>
+</ion-header-bar>
+<ion-content class="has-header padding" has-tabs="true" on-refresh="onRefresh()">
+   <div class="card" ng-repeat="item in list" id="{{item.key}}" >
+      <div class="item item-text-wrap">
+         <span>
+         {{ item.item }}
+         </span>
+         <br/>  <br/>
+         <p class="actions padding">
+            <i class="ion-checkmark-circled icon-actions margin" ng-click="markCompleted('{{item.key}}')"></i>
+            <i class="ion-trash-b icon-actions margin" ng-click="deleteItem('{{item.key}}')"></i>
+         </p>
+      </div>
+   </div>
+   <div class="card" >
+      <div class="item item-text-wrap" ng-show="noData">
+         <span>
+         No Items in your bucket List. Click  <a href="javascript:" ng-click="newTask()">Here</a> and create one
+         </span>
+      </div>
+   </div>
+</ion-content>

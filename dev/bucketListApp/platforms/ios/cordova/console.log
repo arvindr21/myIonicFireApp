@@ -1,0 +1,9 @@
+2014-05-29 17:50:19.025 BucketList App[1646:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-29 17:50:19.083 BucketList App[1646:70b] Unlimited access to network resources
+2014-05-29 17:50:20.399 BucketList App[1646:70b] [CDVTimer][keyboard] 0.082970ms
+2014-05-29 17:50:20.399 BucketList App[1646:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-05-29 17:50:20.400 BucketList App[1646:70b] [CDVTimer][statusbar] 0.550985ms
+2014-05-29 17:50:20.400 BucketList App[1646:70b] [CDVTimer][TotalPluginStartup] 1.744032ms
+2014-05-29 17:50:20.705 BucketList App[1646:70b] Resetting plugins due to page load.
+2014-05-29 17:50:21.183 BucketList App[1646:70b] Finished load of: file:///Users/arvindravulavaru/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E9BD69FF-847D-423E-9179-1429D6E02290/BucketList%20App.app/www/index.html
+Terminating in response to SpringBoard's termination.
